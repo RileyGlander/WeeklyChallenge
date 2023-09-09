@@ -12,7 +12,7 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: hwb(54 0% 0%);;
 }
 
 header h1 {
@@ -21,7 +21,7 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: hwb(54 0% 0%);
 }
 
 header div {
@@ -42,13 +42,29 @@ header div ul li {
 }
 
 a {
-    color: #ffffff;
+    color: hwb(54 0% 0%);
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+p1, p2, p3 {
+
+    font-size: 20px;
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    float: left;
 }
+
+
+
+
+p4, p5, p6 {
+    font-size: 20px;
+}
+
+
+
+
 
 .hero {
     height: 800px;
@@ -84,21 +100,22 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    border-radius: 10px;
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: hwb(54 0% 0%);;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: hwb(54 0% 0%);;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: hwb(54 0% 0%);;
 }
 
 .benefit-lead h3 {
@@ -136,20 +153,22 @@ p {
 
 .search-engine-optimization {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 25px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: hwb(54 0% 0%);
+    border-radius: 10px
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    padding: 25px;
+    height: 325px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: hwb(54 0% 0%);
+    border-radius: 10px;
 }
 
 .social-media-marketing {
@@ -158,7 +177,8 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: hwb(54 0% 0%);;
+    border-radius: 10px;
 }
 
 .search-engine-optimization img {
