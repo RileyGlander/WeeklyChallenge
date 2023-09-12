@@ -1,5 +1,7 @@
 # Weekly Challenge 1
 
+https://rileyglander.github.io/WeeklyChallenge/
+
 ## Description
 
 - What was your motivation? What motivated me was knowing that I could try out different commands and find something that I like. It was super interesting to be able to do that and figure stuff out as I go. 
@@ -22,6 +24,10 @@ You can use this by visiting the website and learning more about Horiseon and wh
 https://github.com/coding-boot-camp/urban-octo-telegram
 
 https://stackoverflow.com/questions/21447128/text-aligned-to-the-left-and-right-of-a-div-to-move-to-separate-lines-both-on-th
+
+https://www.youtube.com/watch?v=JdagGAxAow0
+
+https://www.youtube.com/watch?v=kX3TfdUqpuU
 
 ## License
 
