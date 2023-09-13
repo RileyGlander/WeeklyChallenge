@@ -5,10 +5,12 @@
 }
 
 body {
+    /* This is the white background behind everything on the page */
     background-color: #d9dcd6;
 }
 
 header {
+    /* This is the blue bar at the top of the screen */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,6 +18,7 @@ header {
 }
 
 header h1 {
+    /* Header 1 is the Horiseon text on the top left side of the screen. */
     display: inline-block;
     font-size: 48px;
 }
@@ -42,23 +45,31 @@ header div ul li {
 }
 
 a {
+    /* This is the color of the text on the top left side of the screen */
     color: hwb(54 0% 0%);
     text-decoration: none;
 }
 
 p1, p2, p3 {
-
+/*These are the paragraphs in the middle of the screen.
+P1 is underneath the Search Engine Optimization header
+P2 is underneath the Online Reputation Management header 
+P3 is underneath the Social Media Marketing header. */
     font-size: 20px;
     display: inline-block;
     width: 50%;
     margin: 0;
-    float: left;
+    float: none;
 }
 
 
 
 
 p4, p5, p6 {
+/* These are the paragraphs on the right side of the screen also known as the aside.
+P4 is underneath the Lead Generation header.
+P5 is underneath the Brand Awareness header.
+P6 is underneath the Cost Management header. */   
     font-size: 20px;
 }
 
@@ -67,6 +78,7 @@ p4, p5, p6 {
 
 
 .hero {
+    /*This is the first picture you see when you visit the page. */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -86,6 +98,7 @@ p4, p5, p6 {
 }
 
 .content {
+    /* .Content is the section around Paragraph 1, 2, 3 and header 2 */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -106,14 +119,17 @@ p4, p5, p6 {
 .benefit-lead {
     margin-bottom: 32px;
     color: hwb(54 0% 0%);;
+    /* This is the section around Lead Generation and the text underneath it */
 }
 
 .benefit-brand {
     margin-bottom: 32px;
     color: hwb(54 0% 0%);;
+    /* This is the section around Brand Awareness and the text underneath it */
 }
 
 .benefit-cost {
+    /* This is the section around the Cost Management and the text underneath it */
     margin-bottom: 32px;
     color: hwb(54 0% 0%);;
 }
@@ -209,12 +225,13 @@ p4, p5, p6 {
 }
 
 .footer {
-    padding: 30px;
+    padding: 18px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 .footer h2 {
+    /* Footer 2 is the text at the bottom of the screen reading "Made with <3 by Horiseon */
     font-size: 20px;
 }
